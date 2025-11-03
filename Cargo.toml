@@ -1,0 +1,10 @@
+[package]
+name = "rust-chat"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = {version = "4.5.50", features = ["derive"]}
+color = "0.3.2"
+colored = "3.0.0"
+chrono = "0.4"
